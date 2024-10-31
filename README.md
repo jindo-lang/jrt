@@ -1,1 +1,1 @@
-# jrt
+# Jindo Runtime (JRT)
