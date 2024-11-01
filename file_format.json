@@ -1,0 +1,24 @@
+{
+  "header": {
+    "ident": "4 byte Magicnumber and other info",
+    "type": "4 byte Object file type",
+    "entry": "4 byte Entry point virtual address",
+    "memalloc": "4 byte Memory allocation size for runtime",
+    "shoff": "4 byte Section header table file offset",
+    "shnum": "4 byte Section header table entry count",
+    "shstrndx": "4 byte Section heade string table index" 
+  },
+
+  "section_header": {
+    "name": "4 byte Section name (string tbl index)",
+    "type": "4 byte Section type",
+    "flags": "4 byte Section flags",
+    "addr": "4 byte Section virtual addr at execution",
+    "offset": "4 byte Section file offset",
+    "size": "4 byte Section size in bytes",
+    "link": "4 byte Link to another section",
+    "info": "4 byte Additional section info",
+    "addralign": "4 byte Section alignment",
+    "entsize": "4 byte Entry size if section holds table"
+  }
+}
